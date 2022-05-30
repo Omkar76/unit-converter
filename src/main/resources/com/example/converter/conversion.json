@@ -1,0 +1,104 @@
+[
+  {
+    "name": "length",
+    "baseUnit": "meter",
+    "units": {
+      "nanometer": "1000000000",
+      "microns": "1000000",
+      "millimeter": "1000",
+      "centimeters": "100",
+      "meter": "1",
+      "kilometers": "0.001",
+      "inches": "39.370078740157",
+      "feet": "3.2808398950131",
+      "yards": "1.0936132983377",
+      "mile": "0.00062137119223733",
+      "nautical mile": "0.00053995680345572"
+    }
+  },
+  {
+    "name": "time",
+    "baseUnit": "minutes",
+    "units": {
+      "seconds": "60",
+      "microseconds": "6e+7",
+      "minutes": "1",
+      "nanoseconds": "6e+10",
+      "milliseconds": "60000",
+      "hours": "0.016666666666666",
+      "days": "0.000694444"
+    }
+  },
+  {
+    "name": "area",
+    "baseUnit": "square meter",
+    "units": {
+      "square meter": "1",
+      "square kilometer": "1e-6",
+      "square mile": "3.861e-7",
+      "square yard": "1.19599",
+      "square foot": "10.7639",
+      "hectare": "1e-4",
+      "acre": "0.000247105"
+    }
+  },
+  {
+    "name": "digital storage",
+    "baseUnit": "bit",
+    "units": {
+      "bit": "1",
+      "kilobit": "0.001",
+      "kibibit": "0.0009765625",
+      "megabit": "1e-6",
+      "mebibit": "9.5367431640625e-07",
+      "gigabit": "1e-9",
+      "gibibit": "9.313225746154785e-10",
+      "terabit": "1e-12",
+      "tebibit": "9.094947017729282e-13",
+      "petabit": "1e-15",
+      "pebibit": "8.881784197001252e-16",
+      "byte": "0.125",
+      "kilobyte": "0.000125",
+      "kibibyte": "0.00012207",
+      "megabyte": "1.25e-7",
+      "mebibyte": "1.1920928955078125e-07",
+      "gigabyte": "1.25e-10",
+      "gibibyte": "1.1641532182693481e-10",
+      "terabyte": "1.25e-13",
+      "tebibyte": "1.1368683772161603e-13",
+      "petabyte": "1.25e-16",
+      "pebibyte": "1.1102230246251565e-16"
+    }
+  },
+  {
+    "name": "mass",
+    "baseUnit": "kilogram",
+    "units": {
+      "tonne": "0.001",
+      "kilogram": "1",
+      "gram": "1000",
+      "milligram": "1e+6",
+      "microgram": "1e+9",
+      "imperial ton": "0.000984251968503937",
+      "US ton": "0.001102311310924388",
+      "stone": "0.015432098765432098",
+      "pound": "2.2046226218487757",
+      "ounce": "35.27396583786957"
+    }
+  },
+  {
+    "name": "energy",
+    "baseUnit": "joule",
+    "units": {
+      "joule": "1",
+      "gram calories": "0.2390057361376672946798586013",
+      "kilo joule": "0.001",
+      "kilo calories": "0.0002390057361376673040152963671",
+      "watt hour": "0.0002777777777777777777777777778",
+      "killowatt hour": "2.777777777777777777777777778E-7",
+      "electrovolt": "6.242e+18",
+      "US therm": "9.4804e-9",
+      "foot pound": "0.737562"
+    }
+  }
+]

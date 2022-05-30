@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+
+<VBox fx:id="vBox"
+      spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.converter.ConverterController"
+      >
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <ComboBox fx:id="quantityTypeCheckBox" onAction="#onQuantitySelected">
+    </ComboBox>
+
+
+    <TextField fx:id="textFieldA" text="0" onKeyTyped="#updateTextFieldB"  >
+    </TextField>
+    <ComboBox fx:id="unitAComboBox" onAction="#updateTextFieldB" >
+    </ComboBox>
+
+    <TextField fx:id="textFieldB" text="0" onKeyTyped="#updateTextFieldA">
+    </TextField>
+    <ComboBox fx:id="unitBComboBox" onAction="#updateTextFieldB">
+    </ComboBox>
+</VBox>
